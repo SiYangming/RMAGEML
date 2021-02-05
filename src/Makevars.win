@@ -1,3 +1,3 @@
-PKG_CPPFLAGS=-IC:/progra~1/java/jdk1.5.0_01/include \
-	-IC:/progra~1/java/jdk1.5.0_01/include/win32
-PKG_LIBS=-LC:/progra~1/java/jdk1.5.0_01/jre/bin/client -ljvm
+PKG_CPPFLAGS=-IC:/progra~1/AdoptOpenJDK/jdk-11.0.7.10-hotspot/include \
+	-IC:/progra~1/AdoptOpenJDK/jdk-11.0.7.10-hotspot/include/win32
+PKG_LIBS=-LC:/progra~1/AdoptOpenJDK/jdk-11.0.7.10-hotspot/bin/client -ljvm

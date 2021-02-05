@@ -1,5 +1,5 @@
-Package:RMAGEML
-Version: 2.16.0
+Package: RMAGEML
+Version: 2.28.0
 Date: 2006-04-14
 Title: Handling MAGEML documents
 Author: Steffen Durinck <steffen.durinck@esat.kuleuven.ac.be>, Joke
@@ -13,4 +13,4 @@ Description: This package can be used to handle MAGEML documents in
 License: LGPL
 URL:
         http://www.esat.kuleuven.ac.be/~jallemee,http://www.esat.kuleuven.ac.be/~sdurinck
-Packaged: Wed Oct 22 00:49:37 2008; biocbuild
+Packaged: 2011-11-01 04:29:12 UTC; biocbuild
