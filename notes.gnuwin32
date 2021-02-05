@@ -1,0 +1,25 @@
+
+8 March 2005
+
+Porting the RMAGEML package to Windows requires some manual
+extension of the Sun Java JDK_1.5.0_01.  The default installation
+destination is
+
+c:/progra~1/java/jdk1.5.0_01
+
+go to c:/progra~1/java/jdk1.5.0_01/jre/bin/client
+
+create the file jvm.def with four lines of content as follows:
+
+EXPORTS
+JNI_CreateJavaVM@12
+JNI_GetDefaultJavaVMInitArgs@4
+JNI_GetCreatedJavaVMs@12
+
+Then use the cygwin dlltool
+dlltool --input-def jvm.def --kill-at --dllname jvm.dll --output-lib libjvm.dll.a
+
+Finally, be sure c:/progra~1/java/jdk1.5.0_01/jre/bin/client is in the %PATH%
+
+Under these conditions the standard mingw based linkage with the supplied
+Makevars.win will produce an image of arji that installs for windows.

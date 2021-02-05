@@ -1,11 +1,16 @@
-Package: RMAGEML
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Package:RMAGEML
+Version: 2.16.0
+Date: 2006-04-14
+Title: Handling MAGEML documents
+Author: Steffen Durinck <steffen.durinck@esat.kuleuven.ac.be>, Joke
+        Allemeersch <joke.allemeersch@esat.kuleuven.ac.be> and Vincent
+        Carey <stvjc@channing.harvard.edu>
+Maintainer: Steffen Durinck <steffen@stat.berkeley.edu>
+Depends: R (>= 2.6.0), methods, marray, limma, Biobase
+biocViews: Microarray
+Description: This package can be used to handle MAGEML documents in
+        Bioconductor
+License: LGPL
+URL:
+        http://www.esat.kuleuven.ac.be/~jallemee,http://www.esat.kuleuven.ac.be/~sdurinck
+Packaged: Wed Oct 22 00:49:37 2008; biocbuild

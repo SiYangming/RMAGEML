@@ -1,0 +1,12 @@
+#JAVA_HOME=/usr/local/java
+#JAVA_HOME=/home/local/opt/j2sdk1.4.1_01
+#JAVA_HOME=/var/tmp/jdk1.5.0_02
+# for linux with JDK 1.5_01
+PKG_CPPFLAGS=-I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux 
+PKG_LIBS=-L${JAVA_HOME}/jre/lib/i386 -ljava \
+	-L${JAVA_HOME}/jre/lib/i386/client -ljvm
+#
+# for macosx of 3/05
+#
+#PKG_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
+#PKG_LIBS=-framework JavaVM 

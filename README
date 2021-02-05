@@ -1,0 +1,38 @@
+Please read this file before trying to install RMAGEML.
+RMAGEML needs a Java VM.  
+
+
+------------------------------------------------------------------------------
+
+Running RMAGEML on Linux
+
+ Download and install Java standard Edition, J2SE from SUN:  http://java.sun.com/j2se
+
+ IMPORTANT NOTE: 
+
+ Don't forget to set the LD_LIBRARY_PATH environment variable before starting R.
+
+ The LD_LIBRARY_PATH should be set as such that it includes the libjvm.so and libjava.so.
+ A possible location for this libraries is:
+
+  /your/path/to/jdk1.5.0_04/jre/lib/i386/
+  
+  and 
+
+  /your/path/to/jdk1.5.0_04/jre/lib/i386/server/
+-----------------------------------------------------------------------------
+
+Running RMAGEML on Windows
+
+ Download and install Java Standard Edition, J2SE from SUN:  http://java.sun.com/j2se
+
+ Set the JAVA_HOME variable to point to j2re.1.4.0 so this should be something like D:\Program Files\Java\j2re.1.4.0
+ You can set this environment variable by going to Settings, Control panel, select System, and then Advanced
+ There you'll be able to add Environment variables.  After adding JAVA_HOME you might need to restart your system.
+
+ After you've done this you can install RMAGEML and run it.
+
+------------------------------------------------------------------------------
+
+
+
